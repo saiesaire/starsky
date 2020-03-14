@@ -1,0 +1,44 @@
+.sky{
+  background-color: #013;
+  height: 80vh;
+}
+
+.ground{
+  background-color: #393;
+  height: 20vh;
+  padding: 7vh;
+  &__btn{
+    background-color: #FF0;
+    border: solid 3px #F00;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  &__delete{
+    background-color: #9F0;
+    border: solid 3px #00F;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+.star{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #FF0;
+  position: fixed;
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+  top: 100px;
+  left: 100px;
+}
